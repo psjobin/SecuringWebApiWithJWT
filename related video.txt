@@ -2,3 +2,42 @@ https://www.youtube.com/watch?v=Lh82WlOvyQk&ab_channel=DataVids
 
 also see this: https://www.codemag.com/Article/2105051/Implementing-JWT-Authentication-in-ASP.NET-Core-5
 
+
+
+Securing a web api
+
+
+first ... set up startup.cs to use json web tokens with a secret key
+
+then create a get token method.. (allow anon)
+if the username and password matches.. create a web token using the same secret key as set up in startup.cs
+
+
+
+
+What Are JSON Web Tokens (JWT)?
+JSON Web Token is an open standard (RFC 7519) that defines a safe, compact, and self-contained, secured way for transmission 
+of information between a sender and a receiver through a URL, a POST parameter, or inside the HTTP Header. It should be 
+noted that the information to be transmitted securely between two parties is represented in JSON format and it is 
+cryptographically signed to verify its authenticity. JWT is typically used for implementing authentication and authorization 
+in Web applications. Because JWT is a standard, all JWTs are tokens but the reverse is not true. 
+You can work with JSON Web Tokens in .NET, Python, Node.js, Java, PHP, Ruby, Go, JavaScript, etc.
+
+
+
+
+JWT is represented as a combination of three base64url encoded parts concatenated with period ('.') characters and comprises the following three sections:
+
+Header
+Payload
+Signature
+
+
+
+
+
+
+
+
+
+
