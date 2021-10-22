@@ -1,2 +1,4 @@
 https://www.youtube.com/watch?v=Lh82WlOvyQk&ab_channel=DataVids
 
+also see this: https://www.codemag.com/Article/2105051/Implementing-JWT-Authentication-in-ASP.NET-Core-5
+
